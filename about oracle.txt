@@ -1,0 +1,4 @@
+关于oracle需要安装客户端支持
+
+https://oracle.github.io/odpi/doc/installation.html#macos
+https://www.zhihu.com/question/19629769/answer/123755085
