@@ -8,9 +8,12 @@ import time
 import socket
 import gevent
 import argparse
+from gevent import monkey
 from multiprocessing.dummy import Pool as ThreadPool
 from lib.config import *
 from lib.exploit import *
+
+monkey.patch_all()
 
 class DBScanner(object):
 	def __init__(self, target, thread):
